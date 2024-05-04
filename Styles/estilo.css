@@ -200,6 +200,7 @@ section#sobreMim {
     border: none;
     text-align: center;
     border-radius: 3rem;
+    resize: none;
 }
 .botao{
     background-color: #0A8282;
