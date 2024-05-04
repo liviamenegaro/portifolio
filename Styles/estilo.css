@@ -1,0 +1,230 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background-color: #F2F1EB !important;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.container-nav {
+    background-color: #13405B !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10 rem;
+    width: 100%;
+    height: 4rem;
+    font-family: 'Exo', sans-serif;
+    padding-left: 1%;
+    padding-right: 1%;
+    font-size: x-large;
+    position: fixed;
+}
+
+.container-nav a{
+    color: #F2F1EB;
+    font-family: 'Exo', sans-serif;
+    text-decoration: none;
+}
+
+
+.itensDiv a:hover {
+    color: #0A8282;
+}
+.container-nav a:hover{
+    color: #0A8282;
+
+}
+
+.itensDiv {
+    display: flex;
+    /*align-items:flex-end;*/
+    justify-content: space-between;
+    gap: 2rem;
+    font-size: medium;
+}
+
+/*PÁGINA INICIAL*/
+
+.parte1 { 
+    padding-bottom: 15%;
+    max-height: 100vh;
+
+}
+.tudo {
+    max-width: 100%;
+    max-height: 100%;
+    display: flex;
+    align-items: center;
+    padding-top: 7rem;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.imagem{
+    max-width: 50%;
+    display: flex;
+    max-height: 50%;
+    height: 29.4rem;
+    width: 21.2rem;
+    /*margin: 2rem 2rem 2rem 2rem;*/
+}
+
+.imagem img {
+   max-width: 339px;
+   max-height: 470px;
+   height: auto;
+   width: auto;
+   border-radius: 100px;
+}
+.conteudo {
+    max-width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction:column;
+}
+.conteudo h1 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 5rem;
+    color: #014D54;
+    font-family:'Lucida Sans', sans-serif;
+    max-width: 100%;
+    
+}
+.botoes button{
+    background-color: #0A8282;
+    color: #F2F1EB;
+    border: none;
+    border-radius: 20px;
+    width: 10rem;
+    height: 3rem;
+    
+}
+.botoes {
+    display: flex;
+    align-self:last baseline;
+    justify-content: center;
+    padding-top: 10%;
+    gap: 4rem;
+    padding-bottom: 10px;
+    
+}
+
+/*SOBRE MIM*/
+
+section#sobreMim {
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+    background-color: #014D54;
+    max-height: 100vh;
+    max-width: 100%;
+}
+.texto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.5rem;
+    color:#F2F1EB;
+    font-family:'Lucida Sans', sans-serif;
+    flex-wrap: wrap;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+    max-width: 100%;
+}
+.texto p{
+    padding-top: 3%;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.texto a {
+    color: #1ec0c0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+
+}
+.texto a:hover{
+    color: #F2F1EB;
+}
+.imagens  {
+    display: flex;
+    border-top: none;
+}
+.fotos{
+   flex: 1; 
+   text-align: center;
+   height: 50%;
+}
+.fotos img {
+    max-width: 100%;
+}
+
+/*CONTATO*/
+.contato{
+    max-width: 100%;
+    max-height: 99vh;
+    padding-top: 5rem;
+    background-color: #F2F1EB;
+    
+}
+.textoContato {
+    color: #014D54;
+    text-align: center;
+}
+.formulario{
+    justify-content: center;
+    display: flex;
+}
+.formulario form {
+    padding-top: 1rem;
+    border-color: #014D54;
+    display: flex;
+    flex-direction: column;
+    width: 25rem;
+    gap: 1rem;  
+
+}
+.formulario input{
+    height: 3rem;
+    border-radius: 5rem;
+    border: none;
+    text-align: center;
+
+}
+.formulario textarea{
+    border: none;
+    text-align: center;
+    border-radius: 3rem;
+}
+.botao{
+    background-color: #0A8282;
+    color: #F2F1EB;
+    border: none;
+    border-radius: 20px;
+    width: 10rem;
+    height: 3rem;
+    align-self: center;
+}
+
+footer {
+    border: 0;
+    padding: 0;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#F2F1EB;
+    background-color: #13405B;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
